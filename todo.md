@@ -1,0 +1,85 @@
+- [x] Add Tech Lead and Architect as excluded vacancy titles.
+- [x] Add English C1 as an excluded language requirement.
+- [x] Re-screen the researched vacancy set and remove disallowed roles from the public report.
+- [x] Assess the supported twice-daily automation approach, including persistent data and source-access constraints.
+- [x] Enable the project’s server-side database and background schedule capabilities.
+- [x] Define the persisted vacancy, source, and refresh-run data model.
+- [x] Implement approved-source collection, filtering, deduplication, and new-vacancy timestamping.
+- [x] Configure and verify an unattended two-times-daily refresh schedule.
+- [x] Add dashboard refresh status, history, and NEW markers valid for seven days.
+- [x] Validate the updated interface and scheduled refresh behavior before delivery.
+- [x] Define the agent-run collection workflow and connect its source-verified payload to the protected ingestion endpoint.
+- [x] Disable the obsolete automated vacancy-refresh schedule.
+- [x] Add a user-initiated Find New workflow that starts a filtered vacancy research run.
+- [x] Add a visible Find New button with clear in-progress, success, and failure states.
+- [x] Ensure newly discovered eligible vacancies appear in the shortlist with a seven-day NEW marker.
+- [x] Validate the manual research request and updated report interface.
+- [x] Retire the API-dependent search design and document the no-key chat handoff.
+- [x] Persist a user-initiated Find New request with its requested timestamp and status.
+- [x] Provide a no-key Find New interface that guides the user back to this chat for the live research step.
+- [x] Confirm the initial result shortlist retains the existing NEW-marker mechanism for future vetted additions.
+- [x] Identify and document the minimum permissions, connectors, and source-access requirements for independent daily research.
+- [x] Re-enable a secure twice-daily automated research trigger and protected database ingestion.
+- [x] Confirm a successful controlled private direct-write execution, including its audit record and NEW addition.
+- [x] Diagnose and replace the non-delivering task-schedule callback assumption with a viable research-to-database delivery path.
+- [x] Document the selected path’s permissions, service access, and first-run verification evidence.
+- [x] Add a private project-write interface that applies the existing authoritative validation before storing scheduled research results.
+- [x] Reconfigure the scheduled researcher to use the private project-write path rather than a public callback endpoint.
+- [x] Perform one real, source-verified research execution and write its accepted result and audit record.
+- [x] Verify the resulting NEW marker, no-duplicate behavior, audit record, and displayed shortlist entry.
+- [x] Update the site copy to accurately describe the restored automated refresh behavior.
+- [x] Present the exact twice-daily schedule, database storage tables, filtering and deduplication behavior for user review before activation.
+- [x] Activate the approved scheduled research-agent configuration only after the user confirms the proposal.
+- [x] Render recent refresh-run history and its acceptance/rejection counts in the dashboard.
+- [x] Retire the unverified unattended scheduled trigger in favor of the selected user-authorized guided workflow.
+- [x] Distinguish the verified controlled private-write test from a completed unattended scheduled execution in the dashboard status.
+- [x] Disable the confirmation-gated scheduled vacancy refresh.
+- [x] Implement a user-authorized Check for New Vacancies action that creates the approved live-source research request.
+- [x] Preserve the existing authoritative private writer as the only result-ingestion path used after chat research is completed.
+- [x] Show persisted request progress, completion state, and audit counts in the website.
+- [x] Perform and verify a real button-triggered research run with source verification, deduplication, refresh audit, and NEW handling.
+- [x] Retire the task-launch credential dependency after the user selected the no-key guided workflow.
+- [x] Retire the unavailable direct task-launch workflow in favor of the guided chat handoff.
+- [x] Compare and document viable no-key button-triggered research alternatives, including their verification and data-source limitations.
+- [x] Implement the user-selected no-key research workflow without weakening the authoritative filters or database audit trail.
+- [x] Replace the generic extra-search control with a named Check for New Vacancies request and a complete chat-ready playbook handoff.
+- [x] Show the latest persisted request state, exact next step, and results-return guidance in the website.
+- [x] Retire the unavailable direct task-launch dependency from the website flow.
+- [x] Connect the request card to the saved latest request after reloads and display its status accurately.
+- [x] Verify one real user-click request from website handoff through chat research to private-writer ingestion.
+- [x] Research, screen, and privately ingest the user-authorized FIND-7F90137A vacancy refresh request.
+- [x] Re-run the vetted FIND-7F90137A source URLs to verify private-writer source-URL deduplication in the audit trail.
+- [x] Verify that the two non-baseline FIND-7F90137A roles render with the seven-day NEW marker in the public shortlist.
+- [x] Inspect and record the refresh_runs audit row for the FIND-7F90137A duplicate-verification ingest.
+- [x] Confirm that the attached all-Senior role exclusion does not replace the established tracker policy; retain eligible Senior roles.
+- [x] Define user-specific saved and hidden vacancy preference behavior without changing shared shortlist data.
+- [x] Add persistent preference storage, migration, protected API operations, and unit coverage.
+- [x] Add accessible Save and Hide controls plus saved/hidden preference filtering to the shortlist.
+- [x] Verify preference persistence, error states, and responsive rendering in the browser.
+- [x] Add targeted tests for the private preference persistence helpers or protected router operations.
+- [x] Verify saved and hidden persistence, replacement, and clearing with automated server-side tests only.
+- [x] Verify protected preference procedures reject unauthenticated access and that the public UI never requests private preference data.
+- [x] Keep browser access out of scope at the user’s request; no authenticated browser session was accessed. The effective connector setting was not changed because its required save approval was interrupted and the user declined further prompts.
+- [x] Remove automatic private request and preference queries so they run only after an explicit signed-in user action.
+- [x] Make the Save and Hide actions visibly discoverable on each published vacancy card, with clear signed-in guidance.
+- [x] Verify the revised control placement on desktop and mobile before publishing the correction.
+- [x] Publish the prominent Save and Hide control placement correction.
+- [x] Confirm in at least one authenticated published view that the My Role List guide and card-header actions are visible; the user confirmed visibility after publication.
+- [x] Confirm the published authenticated desktop shortlist shows the My Role List guide and visible card-header Save/Hide actions; the user confirmed desktop visibility.
+- [x] Defer the published authenticated mobile confirmation because the user does not require mobile verification now.
+- [x] Inventory the application code, configuration dependencies, schema, migrations, static assets, and exportable current data without changing the deployed service.
+- [x] Create a safe independent-deployment export package with code, schema/migrations, data exports, and configuration templates that contain no secret values.
+- [x] Write clear independent redeployment and data-import instructions, including required environment variables, authentication replacement, external services, and current Manus-specific limitations.
+- [x] Validate the package manifest and archive contents, then provide the export files and official backup guidance without modifying the live application.
+- [x] Deliver the checked independent export archive, checksum, and redeployment guide to the user with the official point-in-time backup recommendation.
+- [x] Audit the existing Check for New Vacancies request generation path against the supplied canonical policy.
+- [x] Prove that the versioned canonical playbook matches the supplied source text byte-for-byte.
+- [x] Make each new guided research request identify and include the canonical playbook verbatim without exposing credentials or private-writer commands.
+- [x] Add automated policy-completeness and request-generation tests while preserving ingestion, audit, NEW-marker, and Save/Hide behavior.
+- [x] Verify the protected tracker.requestManualSearch mutation runs the real request-creation implementation and returns a generated unique ID, timestamp, canonical playbook, and request-record insertion intent.
+- [x] Research, screen, and privately ingest the canonical-policy vacancy request FIND-A5A390EA.
+- [x] Verify the initial FIND-A5A390EA request completion, accepted vacancy, and refresh audit result.
+- [x] Correct the Python-primary validation so optional or plus Python does not reject otherwise eligible roles.
+- [x] Re-submit the exact FIND-A5A390EA source URL and confirm a 0-new, 1-updated protected audit result.
+- [x] Compare the duplicate-update row before and after re-ingestion to confirm first_seen_at is preserved and last_seen_at advances.
+- [x] Capture explicit public shortlist evidence that the FIND-A5A390EA role displays the NEW · 7 DAYS marker.
