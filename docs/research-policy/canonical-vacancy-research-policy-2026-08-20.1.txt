@@ -1,0 +1,332 @@
+Run a comprehensive live vacancy search for the candidate described below.
+
+IMPORTANT:
+This is the authoritative vacancy research policy.
+Follow every rule exactly.
+Do not add, remove, reinterpret, broaden or narrow any eligibility rule or exclusion.
+
+CANDIDATE PROFILE
+
+The candidate is an experienced Software Engineer / Software Developer with substantial professional experience in backend and full-stack web development.
+
+CORE PROFESSIONAL STACK
+
+The candidate's strongest professional technologies and areas are:
+
+- Node.js
+- JavaScript
+- TypeScript
+- PHP
+- AWS
+- cloud computing
+- serverless architecture
+- AWS Lambda
+- microservices
+- NestJS
+- React
+
+ADDITIONAL PROFESSIONAL EXPERIENCE
+
+- Symfony
+- Python
+- PostgreSQL
+- MySQL
+- MongoDB
+- DynamoDB
+- Redis
+- Kubernetes
+- Docker
+- Kafka
+- MQTT
+- REST
+- gRPC
+- API gateways
+- IoT
+- infrastructure as code
+
+Symfony is a genuine part of the candidate's professional PHP experience and must be considered when evaluating PHP/Symfony vacancies.
+
+The candidate has substantial professional experience with Node.js, JavaScript, TypeScript, PHP, AWS/cloud, microservices and web development.
+
+SEARCH TARGET
+
+Search broadly for suitable individual-contributor software engineering roles, including but not limited to:
+
+- Software Engineer
+- Software Developer
+- Backend Engineer
+- Backend Developer
+- Full-stack Engineer
+- Full-stack Developer
+- Node.js Developer
+- JavaScript Developer
+- TypeScript Developer
+- PHP Developer
+- Symfony Developer
+- Web Developer
+- Cloud Software Engineer
+- and other closely related individual-contributor engineering roles.
+
+Do not restrict the search to the literal title "cloud-native full-stack engineer".
+
+Evaluate the actual responsibilities and requirements of each vacancy, not just the job title.
+
+Prioritize roles where the candidate's Node.js, JavaScript, TypeScript, PHP, Symfony, AWS/cloud, serverless, microservices, NestJS, React, databases, Kubernetes, Docker, Kafka, MQTT, REST/gRPC or related experience provides a meaningful match.
+
+SENIORITY
+
+Senior roles ARE ALLOWED.
+
+"Senior" is NOT an exclusion.
+
+Eligible examples include:
+- Senior Software Engineer
+- Senior Backend Engineer
+- Senior Backend Developer
+- Senior Full-stack Engineer
+- Senior Full-stack Developer
+- Senior Node.js Developer
+- Senior PHP Developer
+- Senior Symfony Developer
+
+Exclude only roles whose actual position/title is:
+- Tech Lead
+- Technical Lead
+- Architect
+
+Do not exclude a role merely because the vacancy mentions senior engineers, senior colleagues, technical leads, leadership collaboration, or similar wording in the description.
+
+COMPANY EXCLUSIONS
+
+Exclude all vacancies from:
+
+Allegro
+Scalo
+Antal PL
+ALM Services
+Aircashback
+Esurance
+Capgemini
+iTeamly
+Edge1S
+Spyrosoft
+Blue Language Labs
+Cloudfide
+InPost
+Alten
+Inuits
+Link Group
+Aura
+Playbook
+SoftServe
+Volvo
+FYUL
+Wise
+Revolut
+GitLab
+Automattic
+
+GEOGRAPHY
+
+Accept roles that satisfy at least one of the following:
+
+1. Onsite or hybrid roles based in Wrocław.
+2. Remote roles explicitly available from Poland.
+3. Remote roles explicitly available from Europe.
+4. Cross-border remote roles where the permitted work location includes Poland or Europe.
+5. Global remote roles where the employer explicitly permits working from Europe.
+
+Europe-wide remote eligibility is valid even when Poland is not specifically named, provided the original source explicitly states that remote work from Europe is permitted.
+
+Do not assume that a vacancy marked simply "Remote" is available from Europe.
+
+Verify geographic eligibility from the original vacancy/source page.
+
+Examples:
+
+"Remote - Poland" → eligible.
+"Remote - Europe" → eligible.
+"Remote - EU" → eligible.
+"Remote - European Union" → eligible.
+"Remote - EMEA" → requires verification of the actual permitted countries/region; do not automatically accept.
+"Remote - Germany" → not eligible unless the source explicitly allows working from other European countries.
+"Remote - UK only" → not eligible.
+"Remote - US only" → not eligible.
+"Remote" without geographic information → insufficient; verify the original source before accepting.
+
+JAVA VS JAVASCRIPT
+
+Java and JavaScript are different technologies.
+
+JAVA IS EXCLUDED.
+
+JAVASCRIPT IS A CORE CANDIDATE SKILL AND MUST BE ACTIVELY CONSIDERED FOR MATCHING.
+
+Never treat JavaScript as Java.
+
+Never apply the Java exclusion merely because a vacancy contains:
+- JavaScript
+- TypeScript
+- Node.js
+- React
+- the JavaScript ecosystem.
+
+Exclude roles where Java is a relevant/core programming language according to the established exclusion rule.
+
+ANGULAR
+
+Exclude Angular roles according to the established exclusion rule.
+
+Do not broaden this exclusion to JavaScript, TypeScript, React, Node.js or other frontend technologies.
+
+PYTHON
+
+Python is NOT globally excluded.
+
+Exclude only roles where Python is the primary/core technology or where the position is primarily Python-focused.
+
+Do not exclude roles where Python is:
+- secondary;
+- optional;
+- a nice-to-have;
+- one technology among several;
+- used alongside Node.js, JavaScript or TypeScript.
+
+ENGLISH
+
+Exclude only vacancies that explicitly require English at C1 level or higher.
+
+English B2 is acceptable.
+
+Do not infer C1 from:
+- the vacancy being written in English;
+- an international company;
+- "fluent English";
+- "good English";
+- "strong English";
+- similar vague language.
+
+SOURCE VERIFICATION
+
+For every potentially accepted vacancy:
+
+1. Open the original vacancy/source page.
+2. Verify that the vacancy is currently active.
+3. Verify company and title.
+4. Verify location and work model.
+5. Verify that working from Poland or Europe is permitted where applicable.
+6. Verify technology requirements.
+7. Verify English requirements.
+8. Apply all company, title and technology exclusions.
+9. Verify that the vacancy is not closed or expired.
+
+Search-result snippets alone are not sufficient evidence.
+
+Do not invent missing information.
+
+If the original source cannot be reliably verified, omit the vacancy.
+
+MATCH QUALITY
+
+Calculate matchScore from 0 to 100.
+
+Consider:
+- Node.js relevance;
+- JavaScript relevance;
+- TypeScript relevance;
+- PHP relevance;
+- Symfony relevance;
+- AWS/cloud relevance;
+- serverless/Lambda relevance;
+- microservices relevance;
+- NestJS relevance;
+- React relevance;
+- backend/full-stack relevance;
+- databases;
+- Kubernetes/Docker;
+- Kafka/MQTT;
+- REST/gRPC;
+- transferable professional experience;
+- seniority compatibility;
+- geographic eligibility.
+
+Give particular weight to roles combining Node.js/JavaScript/TypeScript with AWS/cloud, serverless and/or microservices.
+
+PHP and Symfony experience are also significant positive matching factors.
+
+Do not inflate matchScore merely because many keywords appear in the vacancy.
+
+RESULT FIELDS
+
+For each accepted vacancy return:
+
+sourceUrl
+optional directApplicationUrl
+sourceLabel
+company
+title
+region
+workModel
+matchScore
+freshness
+freshnessDetail
+intro
+1–6 proof strings
+caveat
+tags
+1–6 dimensions
+rawRequirements
+optional sourcePublishedAt
+
+DEDUPLICATION
+
+Use sourceUrl as the unique vacancy identifier.
+
+If sourceUrl already exists:
+- do not create a duplicate;
+- update last_seen_at.
+
+For a genuinely new accepted sourceUrl:
+- insert the vacancy once;
+- set first_seen_at.
+
+The application controls the NEW · 7 DAYS marker.
+
+Do not implement a separate NEW mechanism.
+
+SEARCH COMPLETENESS
+
+Search broadly across:
+- original employer career pages;
+- reputable job boards;
+- other reputable public vacancy sources.
+
+Prefer original employer pages whenever available.
+
+Do not stop after finding only one or two matches.
+
+Continue until the relevant available public sources have been adequately searched.
+
+For each accepted vacancy, provide evidence from the original source page.
+
+Report source limitations, blocked pages and unresolved ambiguities.
+
+FINAL RULE
+
+Return only vacancies that satisfy ALL eligibility rules.
+
+Do not silently relax an exclusion in order to increase the number of results.
+
+Do not silently introduce new exclusions.
+
+Senior roles are allowed.
+
+Java is excluded.
+
+JavaScript is a core candidate skill.
+
+PHP is a core candidate skill.
+
+Symfony is a relevant additional candidate skill.
+
+Europe-wide remote roles are eligible when Europe is explicitly permitted by the source.

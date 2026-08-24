@@ -1,0 +1,1 @@
+ALTER TABLE `vacancies` MODIFY COLUMN `region` enum('Wrocław onsite/hybrid','Poland remote','Europe remote','Cross-border remote','Global remote') NOT NULL;
