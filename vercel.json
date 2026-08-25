@@ -2,10 +2,5 @@
   "version": 2,
   "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "vite build",
-  "outputDirectory": "dist/public",
-  "functions": {
-    "index.ts": {
-      "includeFiles": "dist/public/**"
-    }
-  }
+  "outputDirectory": "dist/public"
 }
