@@ -3,8 +3,9 @@
   "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "vite build",
   "outputDirectory": "dist/public",
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.ts" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "functions": {
+    "index.ts": {
+      "includeFiles": "dist/public/**"
+    }
+  }
 }
